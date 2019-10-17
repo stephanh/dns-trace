@@ -1,0 +1,15 @@
+[package]
+name = "dns-trace"
+version = "0.1.0"
+authors = ["Stephan Hoermann <srhoermann@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+trust-dns = "^0.17"
+trust-dns-resolver = "^0.12"
+trust-dns-proto = "0.8.0"
+rand = "0.7"
+futures = "^0.1.28"
+tokio = "^0.1.22"
+failure = "0.1.6"
+termion = "*"
